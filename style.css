@@ -1,0 +1,182 @@
+* {
+    box-sizing: border-box;
+}
+
+/* .row {
+    max-width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+} */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list-nav {
+    list-style-type: none;
+    display: flex;
+}
+
+
+.list-nav a:link {
+    color: black;
+    border: 1px solid blueviolet;
+    border-radius: 0.2em;
+    padding: 0.2rem;
+    text-decoration: none;
+}
+
+.list-nav a:hover {
+    color: white;
+    border: 1px solid blueviolet;
+    border-radius: 0.2em;
+    padding: 0.2rem;
+    background-color: blueviolet;
+
+}
+
+.logo {
+    min-width: 8%;
+    max-width: 10%;
+    height: auto;
+}
+
+.bg-image {
+    background-image:
+        linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
+        url('seniada.jpg');
+    width: 100%;
+    height: 30em;
+    background-size: cover;
+    color: white;
+    padding: 20px;
+    border-radius: 1em;
+}
+
+.row1 {
+    max-width: 100%;
+    position: relative;
+}
+
+.static-text {
+    position: absolute;
+    top: 4em;
+    left: 4em;
+    max-width: 30%;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.static-text h1 {
+    color: white;
+}
+
+.static-text button {
+    color: white;
+    background-color: blueviolet;
+    border-radius: 5em;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-right: 8%;
+    padding-left: 8%;
+    border: none;
+}
+
+.sherbimet {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 5%;
+}
+
+.img-sherbimet {
+    /* display: flex;
+    justify-content: center; */
+    max-width: 100%;
+    max-height: max-content;
+    padding: 0.1em;
+    border-radius: 1em;
+}
+
+.sherbimet h6 {
+    font-size: 1.5em;
+    font-weight: 900;
+    padding-top: 0px;
+    text-align: center;
+    max-width: 100%;
+    max-height: max-content;
+    padding: 0.1em;
+    border-radius: 1em;
+    margin: 0.1em;
+}
+
+.sherbimet p {
+    font-size: 0.9em;
+    font-weight: 300;
+    padding-top: 0px;
+    text-align: center;
+    max-width: 100%;
+    max-height: max-content;
+    padding: 0.1em;
+    border-radius: 1em;
+    margin: 0.1em;
+}
+
+.tre-img {
+    display: flex;
+    justify-content: center;
+}
+
+.vlera img {
+    max-width: 100%;
+}
+
+.vlera h1 {
+    text-align: center;
+}
+
+.values {
+    background-color: blueviolet;
+    max-width: 20%;
+    margin-right: 1em;
+    margin-left: 1em;
+    border-radius: 0.5em;
+    padding: 0.7rem;
+}
+
+.values h5 {
+    color: white;
+    font-size: 1.5em;
+}
+
+.values p {
+    color: white;
+}
+
+.projektet {
+    padding-top: 20%;
+    background-color: rgba(137, 43, 226, 0.096);
+    max-width: 80%;
+    margin-right: 1em;
+    margin-left: 1em;
+    border-radius: 0.5em;
+    padding: 0.7rem;
+    margin: auto;
+}
+
+.projektet img {
+    max-width: 100%;
+}
+
+.ourprojects {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.projects-align {
+    margin-left: 0.6em;
+}
